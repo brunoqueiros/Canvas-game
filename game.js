@@ -186,7 +186,7 @@ var Game = function () {
         var centreY = width / 2;
         ctx.fillText('Ops, you lost... :(', centreX, centreY - 10);
         ctx.font = 'bold 15px sans-serif';
-        ctx.fillText('click here for try again', centreX, centreY + 15);
+        ctx.fillText('click here to try again', centreX, centreY + 15);
         ctx.restore();
     }
 
